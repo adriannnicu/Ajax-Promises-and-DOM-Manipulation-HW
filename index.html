@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Get Your Meal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <div class="header-text">
+                <h1>Find Meals For Your Ingredients</h1>
+                <p>Real food doesn`t have ingredients, real food is ingredients.</p>
+                <p>- Jamie Oliver</p>
+            </div>
+            <div class="search-bar">
+                <input type="search" id="recipeSearch" name="recipeSearch" placeholder="Type an ingredient..." />
+                <button onclick="searchMeal()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </header>
+        <main>
+            <div id="display-meal"></div>
+        </main>
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
